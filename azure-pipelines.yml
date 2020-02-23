@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'Azure Artifacts/Poop Package'
+    publishVstsFeed: 'Azure Artifacts/Tailspin.SpaceGame.Web.Models'
     allowPackageConflicts: true
   condition: succeeded()
